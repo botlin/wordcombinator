@@ -1,8 +1,44 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-<head>
-	<title>W800 - Wordcombinator</title>
-</head>
-<body>
-</body>
+  <head>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="author" content="Tobias Steuer">
+    <meta name="date" content="2016-06-30T22:00:00+02:00">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Word Combinator</h1>
+      <p>
+        Dieses Tool nimmt alle Wörter aus den Listen A,B,C und erstellt<br>
+        alle möglichen Kombinationen daraus in Liste 'Result'. Die Liste 'Removed Results'<br>
+        filtert alle Einträge aus der Result Liste.
+      </p>
+      <form>
+        <span>
+          <lable for="listA">Liste A</lable><br>
+          <textarea id="listA" cols=20 rows=20></textarea>
+        </span>
+        <span>
+          <lable for="listB">Liste B</lable><br>
+          <textarea id="listB" cols=20 rows=20></textarea>
+        </span>
+        <span>
+          <lable for="listC">Liste C</lable><br>
+          <textarea id="listC" cols=20 rows=20></textarea>
+        </span>
+        <span>
+          <lable for="listResult">Result</lable><br>
+          <textarea id="listResult" readonly cols=20 rows=20></textarea>
+        </span>
+        <span>
+          <lable for="listRemoved">Removed Results</lable><br>
+          <textarea id="listRemoved" cols=20 rows=20></textarea>
+        </span>
+      </form>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,35 @@
+body,br,div,p,span,form,label,h1,h2,h3,h4,h5,h6,textarea{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #eee;
+}
+
+.container{
+  background-color:#fff;
+  width:900px;
+  padding: 20px;
+  margin:auto;
+  border: 1px solid #ccc;
+}
+
+lable{
+  vertical-align: top;
+}
+
+p{
+  margin-top: 20px;
+}
+
+form{
+  margin-top: 20px;
+  display: inline-block;
+}
+
+span{
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+}
